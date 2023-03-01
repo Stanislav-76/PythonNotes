@@ -1,7 +1,6 @@
 import Modul
 import View
 
-move = {1:'Создать заметку', 2: 'Проcмотреть заметки', 3:'Изменить заметку', 4:'Удалить заметку', 5:'Выход'}
 
 def start():
     notes = Modul.read()
@@ -16,5 +15,4 @@ def start():
         if n == 4:
             Modul.del_note(notes)
         if n == 5:
-            break       
-        
+            break        
